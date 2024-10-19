@@ -13,13 +13,13 @@ export default function AboutSection() {
           </button>
 
           <p className="max-w-2xl text-[20px] sm:text-[16px] lg:text-[20px] leading-[138.68%] text-[#050505]">
-            👋 Hi! I'm Ayesha Mughal, I am 15 year old girl, CS student studying
-            at Govt.Girls Degree College ,Clifton. dedicated web developer and
+            👋 Hi! I&apos;m Ayesha Mughal, I am 15 year old girl, CS student studying
+            at Govt.Girls Degree College, Clifton. dedicated web developer and
             graphic designer. I love bringing ideas to life through code and
             creative design. 🚀 With skills in HTML 🟧, CSS 🟦, JavaScript 🟨,
             and Python 🐍, I craft responsive websites and dynamic web apps that
-            both look great and work flawlessly. 🎨✨ 🎯 I'm always learning and
-            pushing my limits to deliver exceptional results. Let's connect and
+            both look great and work flawlessly. 🎨✨ 🎯 I&apos;m always learning and
+            pushing my limits to deliver exceptional results. Let&apos;s connect and
             create something amazing! 💻......
           </p>
 
@@ -40,14 +40,14 @@ export default function AboutSection() {
             Skills
           </h1>
           <p className="text-[14px] leading-[19px] text-justify text-[#000000]">
-          I have strong expertise in HTML 🌐, CSS 🎨, and JavaScript 💻, with
+            I have strong expertise in HTML 🌐, CSS 🎨, and JavaScript 💻, with
             hands-on experience in React ⚛️, Next.js 🚀, and Bootstrap for
             building responsive applications. I’m familiar with jQuery 🧩 and
             TypeScript 📜, which enhance my development capabilities. In
-            addition, I have skills in SASS for styling 🎨, and I'm proficient
+            addition, I have skills in SASS for styling 🎨, and I&apos;m proficient
             in Git 🗂️ for version control. My knowledge of Python 🐍 allows me
             to tackle various programming challenges.
-             </p>
+          </p>
         </div>
 
         {/* Passion and Interests Section */}
@@ -56,7 +56,7 @@ export default function AboutSection() {
             Passion and Interests
           </h1>
           <p className="text-[14px] leading-[19px] text-justify text-[#000000]">
-            I’m passionate about web development, cyber security, and ethical
+            I&apos;m passionate about web development, cyber security, and ethical
             hacking. I enjoy transforming complex ideas into user-friendly
             applications while exploring the realms of AI and UI/UX design. My
             drive for continuous learning keeps me engaged with new technologies
@@ -71,34 +71,32 @@ export default function AboutSection() {
             Experience
           </h1>
           <p className="text-[14px] leading-[19px] text-justify text-[#000000]">
-          I’m currently interning at GAO TECH.INC 🚀, where I’m gaining
+            I&apos;m currently interning at GAO TECH.INC 🚀, where I&apos;m gaining
             hands-on experience in web development and sharpening my technical
-            skills. Outside of my internship, I’ve independently developed a
+            skills. Outside of my internship, I&apos;ve independently developed a
             range of exciting projects! 🌟 I created a Weather App ☀️🌧️ for
             real-time forecasts, a Pomodoro Timer ⏲️ to enhance productivity,
             and a GitHub Profile Viewer 📁 for exploring GitHub profiles
             effortlessly. My Currency Converter 💱 simplifies exchanges, and my
             Expense Tracker 💸 keeps budgeting easy and efficient. Additionally,
             I built a Password Generator 🔑 for secure password creation and a
-            BMI Calculator ⚕️ to help users monitor their health. Currently, I’m
+            BMI Calculator ⚕️ to help users monitor their health. Currently, I&apos;m
             working on a JARVIS-like Assistant 🤖 to assist users with coding
             problems in a fast and efficient way. 🚀 Through both my internship
-            and independent projects, I’m continually driven by a passion for
+            and independent projects, I&apos;m continually driven by a passion for
             learning, innovation, and tackling real-world problems! ✨
-         
-            
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center text-center  space-y-12">
-          <Image
-            src="/images/image.png"
-            alt="svg"
-            className="w-32 h-32 object-contain"
-            width={200} // Example static size
-            height={200}
-          />
-</div>
+      <div className="flex flex-col items-center text-center space-y-12">
+        <Image
+          src="/images/image.png"
+          alt="svg"
+          className="w-32 h-32 object-contain"
+          width={200} 
+          height={200}
+        />
+      </div>
     </div>
   );
 }
